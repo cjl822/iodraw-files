@@ -454,13 +454,6 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-118" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.69;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="qyCkBA5WIJJQxL_CeqIt-101" target="qyCkBA5WIJJQxL_CeqIt-105">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="901" y="2150" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-119" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="qyCkBA5WIJJQxL_CeqIt-102" target="qyCkBA5WIJJQxL_CeqIt-106">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
