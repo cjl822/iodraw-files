@@ -632,7 +632,7 @@
           <mxGeometry x="115.5" y="1274" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-30" value="格式标准化：薪资解析、城市标准化、技能标签清洗" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="115.5" y="1385" width="253" height="66" as="geometry" />
+          <mxGeometry x="115.5" y="1366" width="253" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-31" value="异常值处理：薪资分位数裁剪，删除极端异常值" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20" y="1561" width="252" height="66" as="geometry" />
@@ -694,7 +694,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="eRR5PGyTBWsRdTVIU5f_-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-29">
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-29" target="eRR5PGyTBWsRdTVIU5f_-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="187" y="1506" as="sourcePoint" />
             <mxPoint x="237" y="1456" as="targetPoint" />
