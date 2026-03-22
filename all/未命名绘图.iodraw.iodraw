@@ -521,10 +521,10 @@
           <mxGeometry x="93" y="20" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-2" value="初始化ChromeDriver与反爬配置" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="99" y="119" width="255" height="66" as="geometry" />
+          <mxGeometry x="17" y="119" width="255" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-3" value="遍历关键词列表与城市列表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="100" y="235" width="253" height="49" as="geometry" />
+          <mxGeometry x="20" y="235" width="253" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-4" value="构造目标URL，打开页面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="111" y="334" width="232" height="49" as="geometry" />
