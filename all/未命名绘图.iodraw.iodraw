@@ -527,7 +527,7 @@
           <mxGeometry x="20" y="235" width="253" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-4" value="构造目标URL，打开页面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="30.5" y="330" width="232" height="49" as="geometry" />
+          <mxGeometry x="28.5" y="330" width="232" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-5" value="等待页面元素加载完成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="35.5" y="441" width="220" height="49" as="geometry" />
