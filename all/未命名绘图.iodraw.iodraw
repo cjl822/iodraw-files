@@ -635,7 +635,7 @@
           <mxGeometry x="115.5" y="1366" width="253" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-31" value="异常值处理：薪资分位数裁剪，删除极端异常值" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="1561" width="252" height="66" as="geometry" />
+          <mxGeometry x="116.5" y="1454" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-32" value="重复值去重：联合键去重" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="28" y="1678" width="236" height="49" as="geometry" />
