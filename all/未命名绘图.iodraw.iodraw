@@ -516,13 +516,7 @@
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-127" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qyCkBA5WIJJQxL_CeqIt-107">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="512" y="2208" as="sourcePoint" />
-            <mxPoint x="380" y="2397" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-128" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qyCkBA5WIJJQxL_CeqIt-108">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="832" y="2305" as="sourcePoint" />
-            <mxPoint x="646" y="2394" as="targetPoint" />
+            <mxPoint x="380" y="2392" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
