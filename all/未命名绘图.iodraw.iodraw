@@ -510,7 +510,7 @@
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-126" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="qyCkBA5WIJJQxL_CeqIt-106">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="512" y="2208" as="sourcePoint" />
-            <mxPoint x="118" y="2394" as="targetPoint" />
+            <mxPoint x="118" y="2399" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
