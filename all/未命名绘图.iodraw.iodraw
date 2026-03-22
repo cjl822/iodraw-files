@@ -638,7 +638,7 @@
           <mxGeometry x="116.5" y="1454" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-32" value="重复值去重：联合键去重" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="28" y="1678" width="236" height="49" as="geometry" />
+          <mxGeometry x="124.5" y="1545" width="236" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-33" value="数据完整性与准确性验证" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="128" y="1776" width="225" height="225" as="geometry" />
