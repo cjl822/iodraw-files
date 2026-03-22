@@ -539,7 +539,7 @@
           <mxGeometry x="19.5" y="594" width="250" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-8" value="随机延迟2~4秒" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="62" y="723" width="165" height="49" as="geometry" />
+          <mxGeometry x="62" y="689" width="165" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-9" value="是否存在下一页" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="63" y="811" width="161" height="161" as="geometry" />
