@@ -530,10 +530,10 @@
           <mxGeometry x="28.5" y="330" width="232" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-5" value="等待页面元素加载完成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="35.5" y="417" width="220" height="49" as="geometry" />
+          <mxGeometry x="34.5" y="418" width="220" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-6" value="提取职位数据，解析核心字段" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="531" width="252" height="66" as="geometry" />
+          <mxGeometry x="20" y="498" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-7" value="数据写入MySQL（增量去重）" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="20.5" y="627" width="250" height="66" as="geometry" />
