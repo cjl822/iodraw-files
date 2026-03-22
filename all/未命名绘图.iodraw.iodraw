@@ -629,7 +629,7 @@
           <mxGeometry x="115.5" y="1185" width="250" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-29" value="缺失值处理：核心字段缺失删除，非核心字段填充" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="115.5" y="1274" width="252" height="66" as="geometry" />
+          <mxGeometry x="115.5" y="1272" width="252" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-30" value="格式标准化：薪资解析、城市标准化、技能标签清洗" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="115.5" y="1366" width="253" height="66" as="geometry" />
