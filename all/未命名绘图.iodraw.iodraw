@@ -542,10 +542,10 @@
           <mxGeometry x="62" y="689" width="165" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-9" value="是否存在下一页" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="63" y="811" width="161" height="161" as="geometry" />
+          <mxGeometry x="64" y="767" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-10" value="关闭浏览器驱动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="60" y="1010" width="172" height="49" as="geometry" />
+          <mxGeometry x="58.5" y="968" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-11" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="100" y="1079" width="92" height="49" as="geometry" />
