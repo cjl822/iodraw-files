@@ -626,7 +626,7 @@
           <mxGeometry x="194" y="1114" width="92" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-28" value="读取MySQL中的原始采集数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="115" y="1213" width="250" height="66" as="geometry" />
+          <mxGeometry x="115.5" y="1185" width="250" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-29" value="缺失值处理：核心字段缺失删除，非核心字段填充" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="114" y="1329" width="252" height="66" as="geometry" />
