@@ -545,7 +545,7 @@
           <mxGeometry x="65" y="878" width="161" height="161" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-10" value="关闭浏览器驱动" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="141" y="1118" width="172" height="49" as="geometry" />
+          <mxGeometry x="60" y="1085" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-11" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="181" y="1217" width="92" height="49" as="geometry" />
