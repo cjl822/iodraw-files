@@ -617,9 +617,88 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="eRR5PGyTBWsRdTVIU5f_-26" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eRR5PGyTBWsRdTVIU5f_-25">
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-26" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="eRR5PGyTBWsRdTVIU5f_-25">
           <mxGeometry x="-0.8371" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-27" value="开始" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="1114" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-28" value="读取MySQL中的原始采集数据" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="115" y="1213" width="250" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-29" value="缺失值处理：核心字段缺失删除，非核心字段填充" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="114" y="1329" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-30" value="格式标准化：薪资解析、城市标准化、技能标签清洗" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1445" width="253" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-31" value="异常值处理：薪资分位数裁剪，删除极端异常值" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1561" width="252" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-32" value="重复值去重：联合键去重" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="28" y="1678" width="236" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-33" value="数据完整性与准确性验证" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="128" y="1776" width="225" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-34" value="验证通过，写入MySQL与CSV文件" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="114" y="2074" width="251" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-35" value="结束" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="194" y="2190" width="92" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-27" target="eRR5PGyTBWsRdTVIU5f_-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-28" target="eRR5PGyTBWsRdTVIU5f_-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-29" target="eRR5PGyTBWsRdTVIU5f_-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-30" target="eRR5PGyTBWsRdTVIU5f_-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-31" target="eRR5PGyTBWsRdTVIU5f_-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.16;entryY=0;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-32" target="eRR5PGyTBWsRdTVIU5f_-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="1751" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-42" value="不通过" style="curved=1;startArrow=none;endArrow=block;exitX=0.84;exitY=0;entryX=0.71;entryY=1;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-33" target="eRR5PGyTBWsRdTVIU5f_-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="333" y="1751" />
+              <mxPoint x="333" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-43" value="通过" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-33" target="eRR5PGyTBWsRdTVIU5f_-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eRR5PGyTBWsRdTVIU5f_-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="eRR5PGyTBWsRdTVIU5f_-34" target="eRR5PGyTBWsRdTVIU5f_-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
       </root>
