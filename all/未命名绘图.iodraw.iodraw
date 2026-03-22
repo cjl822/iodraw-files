@@ -524,7 +524,7 @@
           <mxGeometry x="17" y="119" width="255" height="66" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-3" value="遍历关键词列表与城市列表" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="20" y="235" width="253" height="49" as="geometry" />
+          <mxGeometry x="17" y="236" width="253" height="49" as="geometry" />
         </mxCell>
         <mxCell id="eRR5PGyTBWsRdTVIU5f_-4" value="构造目标URL，打开页面" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="28.5" y="330" width="232" height="49" as="geometry" />
