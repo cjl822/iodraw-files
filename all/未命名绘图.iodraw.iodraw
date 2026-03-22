@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="H_G5Dfad3a1_Ie8UnH_0">
-    <mxGraphModel dx="4852" dy="2832" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
+    <mxGraphModel dx="1348" dy="787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="2336" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-19" value="[用户访问系统]" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="560" y="178" width="361" height="780" as="geometry" />
+          <mxGeometry x="560" y="178" width="361" height="754" as="geometry" />
         </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-20" value="    ↓" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="26" width="361" height="26" as="geometry" />
@@ -110,56 +110,53 @@
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-31" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="312" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-32" value="    ├─→ [薪资预测]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-33" value="    │   ├─→ 输入预测条件 → 特征构造 → 模型推理 → 返回预测结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="338" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-33" value="    │   ├─→ 输入预测条件 → 特征构造 → 模型推理 → 返回预测结果" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-34" value="    │   └─→ 展示预测薪资 + 置信区间 + 特征重要性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="364" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-34" value="    │   └─→ 展示预测薪资 + 置信区间 + 特征重要性" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-35" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="390" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-35" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-36" value="    ├─→ [岗位匹配]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="416" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-36" value="    ├─→ [岗位匹配]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-37" value="    │   ├─→ 输入匹配条件 → Jaccard相似度计算 → 排序推荐" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="442" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-37" value="    │   ├─→ 输入匹配条件 → Jaccard相似度计算 → 排序推荐" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-38" value="    │   └─→ 展示推荐岗位 + 技能缺口分析" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="468" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-38" value="    │   └─→ 展示推荐岗位 + 技能缺口分析" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-42" value="    │   └─→ 支持CSV、Excel格式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="494" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-42" value="    │   └─→ 支持CSV、Excel格式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-39" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="520" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-39" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-40" value="    ├─→ [数据导出]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="546" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-40" value="    ├─→ [数据导出]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-41" value="    │   ├─→ 权限检查 → 数据量检查 → 生成文件 → 触发下载" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="572" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-41" value="    │   ├─→ 权限检查 → 数据量检查 → 生成文件 → 触发下载" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-43" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="598" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-43" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-44" value="    └─→ [管理后台]（仅管理员）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="624" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-44" value="    └─→ [管理后台]（仅管理员）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-45" value="        ├─→ 用户管理 → 增删改查用户" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="650" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-45" value="        ├─→ 用户管理 → 增删改查用户" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-46" value="        ├─→ 通知管理 → 发布/编辑/删除通知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="676" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-46" value="        ├─→ 通知管理 → 发布/编辑/删除通知" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-47" value="        ├─→ 数据管理 → 手动触发采集/清洗/分析" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="702" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-47" value="        ├─→ 数据管理 → 手动触发采集/清洗/分析" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
-          <mxGeometry y="728" width="361" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-48" value="        └─→ 缓存管理 → 查看/清除缓存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
-          <mxGeometry y="754" width="361" height="26" as="geometry" />
+          <mxGeometry y="728" width="361" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-49" value="用户访问系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="1366" y="997" width="156" height="49" as="geometry" />
