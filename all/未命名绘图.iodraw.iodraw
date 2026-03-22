@@ -131,16 +131,16 @@
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-38" value="    │   └─→ 展示推荐岗位 + 技能缺口分析" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="494" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-39" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-42" value="    │   └─→ 支持CSV、Excel格式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="520" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-40" value="    ├─→ [数据导出]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-39" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="546" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-41" value="    │   ├─→ 权限检查 → 数据量检查 → 生成文件 → 触发下载" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-40" value="    ├─→ [数据导出]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="572" width="361" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="qyCkBA5WIJJQxL_CeqIt-42" value="    │   └─→ 支持CSV、Excel格式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
+        <mxCell id="qyCkBA5WIJJQxL_CeqIt-41" value="    │   ├─→ 权限检查 → 数据量检查 → 生成文件 → 触发下载" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
           <mxGeometry y="598" width="361" height="26" as="geometry" />
         </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-43" value="    │" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="qyCkBA5WIJJQxL_CeqIt-19">
