@@ -433,7 +433,7 @@
           <mxGeometry x="467" y="2365" width="123" height="49" as="geometry" />
         </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-111" value="结束业务操作" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="649" y="1862" width="156" height="49" as="geometry" />
+          <mxGeometry x="450.5" y="2479" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="qyCkBA5WIJJQxL_CeqIt-112" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="qyCkBA5WIJJQxL_CeqIt-98" target="qyCkBA5WIJJQxL_CeqIt-99">
           <mxGeometry relative="1" as="geometry">
